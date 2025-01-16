@@ -1,0 +1,13 @@
+name = "SU2Utils"
+uuid = "faea81d3-ee7a-4ee4-9761-f3a921444e1f"
+authors = ["Paulo Jabardo <pjabardo@gmail.com>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
